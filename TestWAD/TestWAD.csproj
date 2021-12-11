@@ -136,6 +136,10 @@
     <Compile Include="Migrations\202112110358327_AddStudent.designer.cs">
       <DependentUpon>202112110358327_AddStudent.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202112110513499_add-migration Upd.cs" />
+    <Compile Include="Migrations\202112110513499_add-migration Upd.Designer.cs">
+      <DependentUpon>202112110513499_add-migration Upd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Models\ViewModel\StudentViewModel.cs" />
@@ -199,6 +203,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202112110358327_AddStudent.resx">
       <DependentUpon>202112110358327_AddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112110513499_add-migration Upd.resx">
+      <DependentUpon>202112110513499_add-migration Upd.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
